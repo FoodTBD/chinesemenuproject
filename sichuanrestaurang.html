@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+        }
+
+        .link-wikipedia {
+            font-family: serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sichuan Restaurang</h1>
+        <h3>Solna, Sweden</h3>
+        <p>
+            <a target="_blank" href="https://sichuanrestaurang.business.site/">Website</a>,
+            <a target="_blank" href="https://maps.app.goo.gl/5y1jpU2auNVUvaNG9">Google Maps</a>,
+            <a target="_blank" href="https://maps.apple.com/?auid=16110128436370371085">Apple Maps</a>
+        </p>
+
+        <h2>Menu</h2>
+
+        <div class="table-container" style="width: 80%;">
+            <p align="center">
+                <img src="img/PXL_20230517_155504357 Large.jpeg" height="320" />
+            </p>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-center" colspan="3">前餐 (Starters)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <b>香拌牛肉</b>
+                            149:-<br>
+                            <small class="text-muted">Marinated Beef Salad</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('香拌牛肉', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=香拌牛肉">🖼️</a>
+                        </td>
+                        <td>
+                            <b>夫妻肺片</b>
+                            189:-<br>
+                            <small class="text-muted">Sliced Beef and Ox Tongue in Chili Sauce</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('夫妻肺片', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=夫妻肺片">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Fuqi_Feipian">W</a>
+                        </td>
+                        <td>
+                            <b>口水鸡</b>
+                            149:-<br>
+                            <small class="text-muted">Steamed Chicken with Chili Sauce</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('口水鸡', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=口水鸡">🖼️</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>红油肚丝</b>
+                            139:-<br>
+                            <small class="text-muted">Pork Tripe in Chili Oil</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('红油肚丝', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=红油肚丝">🖼️</a>
+                        </td>
+                        <td>
+                            <b>山椒木耳</b>
+                            149:-<br>
+                            <small class="text-muted">Black Fungus with Wild Pepper</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('山椒木耳', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=山椒木耳">🖼️</a>
+                        </td>
+                        <td>
+                            <b>蒜泥黄瓜</b>
+                            139:-<br>
+                            <small class="text-muted">Cucumber with Mashed Garlic</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('蒜泥黄瓜', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=蒜泥黄瓜">🖼️</a>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th class="text-center" colspan="3">海鲜 (Seafood)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <b>沸腾鱼</b>
+                            249:-<br>
+                            <small class="text-muted">Boiled Fish in Chili Oil</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('沸腾鱼', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=沸腾鱼">🖼️</a>
+                        </td>
+                        <td>
+                            <b>酸菜鱼</b>
+                            189:-<br>
+                            <small class="text-muted">Boiled Fish with Pickled Cabbage and Chili</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('酸菜鱼', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=酸菜鱼">🖼️</a>
+                        </td>
+                        <td>
+                            <b>水煮鱼</b>
+                            199:-<br>
+                            <small class="text-muted">Poached Fish in Chili Oil</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('水煮鱼', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=水煮鱼">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Shuizhu">W</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>清蒸比目</b>
+                            时价 (market price)<br>
+                            <small class="text-muted">Steamed Flatfish</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('清蒸比目', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=清蒸比目">🖼️</a>
+                        </td>
+                        <td colspan="2">
+                            <b>川香椒麻鱼</b>
+                            669:-<br>
+                            <small class="text-muted">Spicy Pepper Fish</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('川香椒麻鱼', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=川香椒麻鱼">🖼️</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>香辣大虾</b>
+                            219:-<br>
+                            <small class="text-muted">Spicy Prawns</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('香辣大虾', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=香辣大虾">🖼️</a>
+                        </td>
+                        <td colspan="2">
+                            <b>茄汁大虾</b>
+                            199:-<br>
+                            <small class="text-muted">Prawns with Tomato Sauce</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('茄汁大虾', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=茄汁大虾">🖼️</a>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th class="text-center" colspan="3">牛肉 (Beef)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <b>水煮牛肉</b>
+                            219:-<br>
+                            <small class="text-muted">Poached Sliced Beef in Chili Oil</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('水煮牛肉', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=水煮牛肉">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Shuizhu">W</a>
+                        </td>
+                        <td>
+                            <b>孜然牛柳</b>
+                            289:-<br>
+                            <small class="text-muted">Beef Tenderloin with Cumin</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('孜然牛柳', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=孜然牛柳">🖼️</a>
+                        </td>
+                        <td>
+                            <b>水煮牛柳</b>
+                            269:-<br>
+                            <small class="text-muted">Poached Beef Tenderloin in Chili Oil</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('水煮牛柳', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=水煮牛柳">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Shuizhu">W</a>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th class="text-center" colspan="3">猪肉 (Pork)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <b>京酱肉丝</b>
+                            219:-<br>
+                            <small class="text-muted">Jingjiang Rousi (Sautéed Shredded Pork in Sweet Bean
+                                Sauce)</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('京酱肉丝', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=京酱肉丝">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Jing_Jiang_Rou_Si">W</a>
+                        </td>
+                        <td>
+                            <b>鱼香肉丝</b>
+                            189:-<br>
+                            <small class="text-muted">Yuxiang Shredded Pork (Sautéed in Spicy Garlic
+                                Sauce)</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('鱼香肉丝', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=鱼香肉丝">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Yuxiang_shredded_pork">W</a>
+                        </td>
+                        <td>
+                            <b>小炒肉</b>
+                            179:-<br>
+                            <small class="text-muted">Sautéed Pork</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('小炒肉', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=小炒肉">🖼️</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <b>回锅肉</b>
+                            189:-<br>
+                            <small class="text-muted">Twice-Cooked Pork</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('回锅肉', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=回锅肉">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Twice_cooked_pork">W</a>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th class="text-center" colspan="3">鸡肉 (Chicken)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <b>宫保鸡丁</b>
+                            189:-<br>
+                            <small class="text-muted">Kung Pao Chicken</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('宫保鸡丁', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=宫保鸡丁">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Kung_Pao_chicken">W</a>
+                        </td>
+                        <td colspan="2">
+                            <b>辣子鸡</b>
+                            199:-<br>
+                            <small class="text-muted">Laziji (Spicy Chicken, Sichuan Style)</small><br>
+                            <button type="button" class="btn btn-sm btn-outline-secondary"
+                                onclick="speakText('辣子鸡', 'zh-CN')">🗣️</button>
+                            <a target="googleimage" class="btn btn-sm btn-outline-secondary"
+                                href="https://www.google.com/search?tbm=isch&q=辣子鸡">🖼️</a>
+                            <a target="wikipedia" class="btn btn-sm btn-outline-secondary link-wikipedia"
+                                href="https://en.wikipedia.org/wiki/Laziji">W</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function speakText(text, localeCode) {
+            const utterance = new SpeechSynthesisUtterance();
+            utterance.lang = localeCode;
+            utterance.rate = 0.85;
+            utterance.text = text;
+            speechSynthesis.speak(utterance);
+        }
+    </script>
+</body>
+
+</html>
